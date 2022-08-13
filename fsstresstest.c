@@ -32,6 +32,7 @@
 #include <getopt.h>
 #include <stdlib.h>
 #include <stdarg.h>
+#include <unistd.h> /* usleep() */
 
 void fslog(char * format, ...)
 {
